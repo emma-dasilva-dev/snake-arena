@@ -1,2 +1,2 @@
-import GameCanvas from "@/components/game/GameCanvas";
-export default function GamePage(){ return <main className="gamePage"><GameCanvas /></main>; }
+import {redirect} from "next/navigation";
+export default function LegacyGamePage(){redirect("/expedition")}
