@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Leaderboard(){return <main className="simplePage"><section className="panel"><p className="eyebrow">COMING IN MILESTONE 4</p><h2>GLOBAL LEADERBOARD</h2><p>The production leaderboard will be connected after the C multiplayer server and PostgreSQL database are ready. Your current personal best is stored only in this browser.</p><Link className="button primary" href="/game">Play now</Link><Link className="textLink" href="/">Back home</Link></section></main>}

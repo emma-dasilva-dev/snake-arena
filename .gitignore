@@ -1,0 +1,9 @@
+node_modules/
+.next/
+out/
+.env.local
+backend/snake-server
+backend/tests/test_snake
+*.o
+*.exe
+.DS_Store
